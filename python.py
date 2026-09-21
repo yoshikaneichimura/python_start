@@ -205,9 +205,132 @@ more than just one line
 # print(a, b, c)
 # print(type(a)), print(type(b)), print(type(c))
 
-print(random.randrange(1, 10))
+# print(random.randrange(1, 10))
 
+"""キャスティング"""
 
+# x = int(1)
+# y = int(2.8)
+# z = int("3")
+
+# print(x, y, z)
+# print(type(x)), print(type(y)), print(type(z))
+
+# x = float(1)
+# y = float(2.8)
+# z = float("3")
+# w = float("4.2")
+
+# print(x, y, z, w)
+# print(type(x)), print(type(y)), print(type(z)), print(type(w))
+
+# x = str("s1")
+# y = str(2)
+# z = str(3.0)
+
+# print(x, y, z)
+# print(type(x)), print(type(y)), print(type(z))
+
+"""文字列"""
+
+# print("It's alright")
+# print("He is called 'Johnny'")
+# print('He is called "Johnny"')
+
+# a = "Hello"
+# print(a)
+
+# a = """Lorem ipusum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
+
+# print(a)
+
+# a = '''Lorem ipusum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua.'''
+
+# print(a)
+
+# a = "Hello, World!"
+# print(a[1])
+
+# for x in "banana":
+#     print(x)
+
+# a = "Hello, World!"
+# print(len(a))
+
+# txt = "The best things in life are free!"
+# print("free" in txt)
+
+# txt = "The best things in life are free!"
+# if "free" in txt:
+#     print("Yes, 'free' is present.")
+
+# txt = "The best things in life are free!"
+# print("expensive" not in txt)
+
+# txt = "The best things in life are free!"
+# if "expensive" not in txt:
+#     print("No, 'expensive' is NOT persent.")
+
+# b = "Hello, World!"
+# print(b[2:5])
+
+# b = "Hello, World!"
+# print(b[:5])
+
+# b = "Hello, World!"
+# print(b[2:])
+
+# b = "Hello, World!"
+# print(b[-5:-2])
+
+# a = "Hello, World!"
+# print(a.upper())
+
+# a = "Hello, World!"
+# print(a.lower())
+
+# a = " Hello, World! "
+# print(a.strip())
+
+# a = "Hello, World!"
+# print(a.replace("H", "J"))
+
+# a = "Hello, World!"
+# print(a.split(","))
+
+# a = "Hello"
+# b = "World"
+# c = a + b
+# print(c)
+
+# a = "Hello"
+# b = "World"
+# c = a + " " + b
+# print(c)
+
+# age = 36
+# txt = f"My name is john, I am {age}"
+# print(txt)
+
+# price = 59
+# txt = f"The price is {price} dollars"
+# print(txt)
+
+# price = 59
+# txt =f"The price is {price:.2f} dollars"
+# print(txt)
+
+# txt = f"The price is {20 * 59} dollars"
+# print(txt)
+
+# txt = "We are the so-called \"Vikings\" from the north."
+# print(txt)
 
 
 
